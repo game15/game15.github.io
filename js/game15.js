@@ -192,9 +192,6 @@
             var btnHeight = +document.getElementById('b01').offsetHeight;
             STEP_MOVE_BUTTON = Math.round(btnHeight + btnHeight/20);
             
-            console.log(btnHeight);
-            console.log(STEP_MOVE_BUTTON);
-    
         function moveButtons(event) {
             var valueTopPx = event.target.style.top,
                 indexTopPx = valueTopPx.indexOf("px"),
