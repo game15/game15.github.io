@@ -175,7 +175,7 @@
 
     (function () {
         const   SPEED_MIX = 200,
-                COUNT_STEPS = 3;
+                COUNT_STEPS = 21;
         var i,
             buttons = document.querySelectorAll(".button"),
             btnCount = buttons.length,
