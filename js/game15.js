@@ -185,7 +185,7 @@
                                  [ 9,10,11,12],
                                  [13,14,15, 0] ],
             SPEED_MIX = 200,
-            COUNT_STEPS = 5,               
+            COUNT_STEPS = 7,               
             btnHeight = +document.getElementById('b01').offsetHeight,            
             STEP_MOVE_BUTTON = Math.round(btnHeight + btnHeight/20);
             
