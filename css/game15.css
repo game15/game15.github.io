@@ -1,0 +1,137 @@
+
+body {
+    background: #a1a0a0;
+}
+
+.win {
+    width: 415px;
+    height: 415px;
+    opacity: 0;
+}
+
+::selection {
+    background: transparent;
+ }
+::-moz-selection {
+    background: transparent;
+ }
+
+.btn_wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    margin: 5px 0;
+    min-width: 415px;
+    min-height: 75px;
+    font: 28px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #000;
+    outline: none;
+    text-transform: uppercase;
+
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+}
+
+.btn:hover {
+    background-color: #f7a825;
+}
+
+.btn_none {
+    opacity: 0;
+}
+
+.wrapper {
+    width: 415px;
+    height: 415px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.button {
+    width: 96px;
+    height: 81px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding-top: 15px;
+    position: absolute;
+    cursor: pointer;
+
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+}
+
+.button.remix {
+    background: #dedede;
+    color: #777;
+}
+
+.btn_wrap button, .button.restart {
+    box-shadow: 4px 4px 4px #777;
+    background: #ffffff;
+    color: #000;
+}
+
+.button.restart:hover {
+
+    background: #f7a825;
+}
+
+.red_hidden {
+    background: red;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 416px) {
+    .btn {
+        min-width: 341px;
+    }
+    .button {
+        width: 79px;
+        height: 64px;
+        border-radius: 20px;
+        font-size: 46px;
+        padding-top: 15px;
+    }
+    .wrapper {
+        width: 341px;
+        height: 341px;
+    }
+    .win {
+        width: 341px;
+        height: 341px;
+    }
+}
+
+@media screen and (max-width: 341px) {
+    .btn {
+        min-width: 277px;
+        font: 25px Arial, Helvetica, sans-serif;
+    }
+    .button {
+        width: 62px;
+        height: 48px;
+        border-radius: 12px;
+        font-size: 34px;
+    }
+    .wrapper {
+        width: 277px;
+        height: 277px;
+    }
+    .win {
+        width: 277px;
+        height: 277px;
+    }
+ 
+}
+
